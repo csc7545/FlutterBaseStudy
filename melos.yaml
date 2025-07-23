@@ -1,0 +1,17 @@
+name: flutter_base_study
+packages:
+  - apps/*
+  - packages/*
+
+command:
+  bootstrap:
+    runPubGetInParallel: true
+
+scripts:
+  analyze:
+    run: dart analyze .
+    description: Run static analysis across all packages
+
+  format:
+    run: dart format --set-exit-if-changed .
+    description: Format all Dart files and fail if changes needed

@@ -1,0 +1,8 @@
+# melos_managed_dependency_overrides: core,feature_home,shared_ui
+dependency_overrides:
+  core:
+    path: ../../packages/core
+  feature_home:
+    path: ../../packages/feature_home
+  shared_ui:
+    path: ../../packages/shared_ui
