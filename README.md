@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
-## Design Pattern Exe
+## Design Pattern exe
 
-melos run run:design_pattern
+- melos run run:design_pattern
+
+[Design Pattern Study README](https://github.com/csc7545/FlutterBaseStudy/blob/main/packages/design_pattern_study/README.md)
