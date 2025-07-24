@@ -15,3 +15,7 @@ scripts:
   format:
     run: dart format --set-exit-if-changed .
     description: Format all Dart files and fail if changes needed
+
+  run:design_pattern:
+    run: melos exec --scope design_pattern_study -- dart bin/main.dart
+    description: Run main.dart in design_pattern_study

@@ -1,0 +1,13 @@
+name: design_pattern_study
+description: "Dart로 구현된 GoF 디자인 패턴 예제 모음"
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+executables:
+  design_pattern_study: bin/main.dart
