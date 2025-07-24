@@ -4,9 +4,9 @@
 
 | 분류                                                            | 특징                                                                   | 예시                                                        |
 | --------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------- |
-| [생성(Creational) 디자인 패턴](<#생성(Creational)-디자인-패턴>) | 하나 또는 여러 개의 객체를 어떻게 초기화할지를 중점으로 둠             | Factory, Builder, Prototype, Singleton, ...                 |
-| [구조(Structural) 디자인 패턴](<#구조(Structural)-디자인-패턴>) | 상속보다 객체 간의 "구성"에 집중                                       | Decorator, Adapter, Composite, Facade, Proxy, ...           |
-| [행위(Behavioral) 디자인 패턴](<#행위(Behavioral)-디자인-패턴>) | 각 객체에 기능을 분배하고, 서로 간의 연결과 커뮤니케이션을 중점으로 둠 | Strategy, Observer, State, Command, Iterator, Template, ... |
+| [생성(Creational) 디자인 패턴](<#생성Creational-디자인-패턴>) | 하나 또는 여러 개의 객체를 어떻게 초기화할지를 중점으로 둠             | Factory, Builder, Prototype, Singleton, ...                 |
+| [구조(Structural) 디자인 패턴](<#구조Structural-디자인-패턴>) | 상속보다 객체 간의 "구성"에 집중                                       | Decorator, Adapter, Composite, Facade, Proxy, ...           |
+| [행위(Behavioral) 디자인 패턴](<#행위Behavioral-디자인-패턴>) | 각 객체에 기능을 분배하고, 서로 간의 연결과 커뮤니케이션을 중점으로 둠 | Strategy, Observer, State, Command, Iterator, Template, ... |
 
 ---
 
