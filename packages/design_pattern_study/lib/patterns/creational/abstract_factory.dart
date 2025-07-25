@@ -8,13 +8,13 @@ abstract class Door {
 // 나무문
 class WoodenDoor implements Door {
   @override
-  String description() => "This is a wooden door."; // 이것은 나무 문입니다.
+  String description() => "This is a wooden door.";
 }
 
 // 철문
 class IronDoor implements Door {
   @override
-  String description() => "This is a iron door."; // 이것은 철문입니다.
+  String description() => "This is a iron door.";
 }
 
 // 수리 전문가
@@ -26,19 +26,19 @@ abstract class DoorExpert {
 // 나무문 수리공
 class Carpenter extends DoorExpert {
   @override
-  String description() => "I am a carpenter."; // 저는 목수입니다.
+  String description() => "I am a carpenter.";
 
   @override
-  String fix() => "I am fixing wooden doors."; // 나무 문을 수리 중입니다.
+  String fix() => "I am fixing wooden doors.";
 }
 
 // 철문 수리공
 class Welder implements DoorExpert {
   @override
-  String description() => "I am a welder."; // 저는 용접공입니다.
+  String description() => "I am a welder.";
 
   @override
-  String fix() => "I am fixing iron doors."; // 철문을 수리 중입니다.
+  String fix() => "I am fixing iron doors.";
 }
 
 // 각기 다른 종류의 문과 수리공을 연결해주는 공장을 생성합니다
@@ -76,6 +76,10 @@ class AbstractFactory {
     final woodenDoor = woodenFactory.makeDoor();
     final carpenter = woodenFactory.callDoorExpert();
 
+    final ironFactory = IronDoorFactory();
+    final ironDoor = ironFactory.makeDoor();
+    final welder = ironFactory.callDoorExpert();
+
     logs.add(
       PatternLog(title: "🪵 Wooden Door", message: woodenDoor.description()),
     );
@@ -83,11 +87,7 @@ class AbstractFactory {
       PatternLog(title: "👷 Carpenter", message: carpenter.description()),
     );
     logs.add(PatternLog(title: "🔧 Fixing", message: carpenter.fix()));
-    logs.add(PatternLog(title: "——", message: ""));
-
-    final ironFactory = IronDoorFactory();
-    final ironDoor = ironFactory.makeDoor();
-    final welder = ironFactory.callDoorExpert();
+    logs.add(const PatternLog(title: "——-", message: ""));
 
     logs.add(
       PatternLog(title: "🪨 Iron Door", message: ironDoor.description()),
