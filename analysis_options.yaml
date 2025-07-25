@@ -6,3 +6,6 @@ linter:
     avoid_print: true
     always_use_package_imports: true
     prefer_final_locals: true
+
+formatter:
+  trailing_commas: preserve
