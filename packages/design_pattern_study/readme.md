@@ -124,7 +124,7 @@ Client가 어떤 객체를 생성할지 알 필요 없이, 생성 방법만 제�
 **언제 사용하나**:
 의존관계가 있는 객체들을 함께 만들어야 하며, 로직이 복잡한 경우
 
-💎 [예시 코드](packages/design_pattern_study/lib/patterns/creational/abstract_factory.dart)
+💎 [예시 코드](lib/patterns/creational/abstract_factory.dart)
 
 ---
 
