@@ -1,3 +1,4 @@
+import 'package:design_pattern_study/design_pattern.dart';
 import 'package:design_pattern_study/models/pattern_log.dart';
 
 // 추상 클래스
@@ -68,7 +69,8 @@ class IronDoorFactory implements DoorFactory {
 }
 
 // 실제 실행 클래스
-class AbstractFactory {
+class AbstractFactory extends DesignPattern {
+  @override
   List<PatternLog> runLogs() {
     final logs = <PatternLog>[];
 
